@@ -12,14 +12,14 @@
 </STEP-ProductInformation>
 
 Export from 3D Glasses
-Effective date: 2022-04-11 16:45:57
+Effective date: 2022-04-11 16:55:34
 Classifications All
 Products "SU1-Level3-111"
 Assets All
 
 Exported by database exporter.
 -->
-<STEP-ProductInformation ExportTime="2022-04-11 16:45:58" ExportContext="GL" ContextID="GL" WorkspaceID="Approved" UseContextLocale="false">
+<STEP-ProductInformation ExportTime="2022-04-11 16:55:34" ExportContext="GL" ContextID="GL" WorkspaceID="Approved" UseContextLocale="false">
 
   <Products>
     <Product ID="SU1-Level3-111" UserTypeID="Level3" ParentID="SU1-Level2-11">
