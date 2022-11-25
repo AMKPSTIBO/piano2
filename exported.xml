@@ -12,14 +12,14 @@
 </STEP-ProductInformation>
 
 Export from AMKP_Folder
-Effective date: 2022-11-25 10:11:29
+Effective date: 2022-11-25 10:11:49
 Classifications All
 Products "AMKP_Folder"
 Assets All
 
 Exported by database exporter.
 -->
-<STEP-ProductInformation ExportTime="2022-11-25 10:11:30" ExportContext="Context3" ContextID="Context3" WorkspaceID="Main" UseContextLocale="false">
+<STEP-ProductInformation ExportTime="2022-11-25 10:11:49" ExportContext="Context1" ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
 
   <Entities>
     <Entity ID="Entity1" UserTypeID="AMKP_E1" ParentID="AMKP_Entity" Selected="false" Referenced="true">
@@ -59,9 +59,9 @@ Exported by database exporter.
 
           </AttributeLink>
 
-          <AssetCrossReference AssetID="P_AC-AXPFX769" Type="AMKP_AssetRef"/>
           <EntityCrossReference EntityID="Entity1" Type="AMKP_EntityRef"/>
           <EntityCrossReference EntityID="AMKP_E2" Type="AMKP_EntityRef"/>
+          <AssetCrossReference AssetID="P_AC-AXPFX769" Type="AMKP_AssetRef"/>
 
         <Values>
           <Value AttributeID="AMKP_SkuValid">12345</Value>
