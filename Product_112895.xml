@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<STEP-ProductInformation ContextID="GL" WorkspaceID="Main" UseContextLocale="false">
+    <Products>
+        <Product ID="112895" UserTypeID="Draj_Sales_Items" ParentID="DRAJ_Items">
+            <Name>Items112895</Name>
+            <ProductCrossReference ProductID="113524" Type="Part of Kit"></ProductCrossReference>
+            <ProductCrossReference ProductID="113524" Type="SingleValueRefTest"></ProductCrossReference>
+            <Values>
+                <Value AttributeID="Item_Description">draj_test_123</Value>
+            </Values>
+        </Product>
+    </Products>
+</STEP-ProductInformation>
