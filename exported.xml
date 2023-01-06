@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Configuration:
+<STEP-ProductInformation ResolveInlineRefs="true" FollowOverrideSubProducts="true">
+<Entities ExportSize="Minimum">
+<Entity>
+<Name/><AttributeLink/><ClassificationCrossReference/><Entity/>
+<ProductCrossReference/><AssetCrossReference/><EntityCrossReference/><ContextCrossReference/><Values/></Entity></Entities>
+<Products ExportSize="Minimum">
+<Product>
+<Name/><AttributeLink/><DataContainerTypeLink/><ClassificationReference/><Product/>
+<ProductCrossReference/><AssetCrossReference/><EntityCrossReference/><ClassificationCrossReference/><Values/><OverrideSubProduct/></Product></Products>
+</STEP-ProductInformation>
+
+Export from AMKP_Folder
+Effective date: 2023-01-06 08:22:29
+Classifications All
+Products "AMKP_Folder"
+Assets All
+
+Exported by database exporter.
+-->
+<STEP-ProductInformation ExportTime="2023-01-06 08:22:29" ExportContext="Context3" ContextID="Context3" WorkspaceID="Main" UseContextLocale="false">
+
+  <Entities>
+    <Entity ID="Entity1" UserTypeID="AMKP_E1" ParentID="AMKP_Entity" Selected="false" Referenced="true">
+      <Name>Entity1</Name>
+    </Entity>
+    <Entity ID="AMKP_E2" UserTypeID="AMKP_E1" ParentID="AMKP_Entity" Selected="false" Referenced="true">
+      <Name>AMKP_E2</Name>
+    </Entity>
+  </Entities>
+  <Products>
+    <Product ID="AMKP_Folder" UserTypeID="AMKP_Parent" ParentID="Product hierarchy root">
+      <Name>AMKP_Folder</Name>
+      <AttributeLink AttributeID="AMKP_ParentValid">
+                
+        <MetaData/>
+
+      </AttributeLink>
+      <AttributeLink AttributeID="AMKP_bothvalid">
+                
+        <MetaData/>
+
+      </AttributeLink>
+
+      <Values>
+        <Value AttributeID="AMKP_ParentValid">Test Value</Value>
+      </Values>
+      <Product ID="SKU1" UserTypeID="AMKP_Sku">
+        <Name>SKU1</Name>
+          <AttributeLink AttributeID="AMKP_SkuValid">
+                        
+            <MetaData/>
+
+          </AttributeLink>
+          <AttributeLink AttributeID="AMKP_bothvalid">
+                        
+            <MetaData/>
+
+          </AttributeLink>
+
+          <EntityCrossReference EntityID="Entity1" Type="AMKP_EntityRef"/>
+          <EntityCrossReference EntityID="AMKP_E2" Type="AMKP_EntityRef"/>
+          <AssetCrossReference AssetID="P_AC-AXPFX769" Type="AMKP_AssetRef"/>
+
+        <Values>
+          <Value AttributeID="AMKP_SkuValid">12345</Value>
+        </Values>
+      </Product>
+      <Product ID="SKU2" UserTypeID="AMKP_Sku">
+        <Name>SKU2</Name>
+          <AttributeLink AttributeID="AMKP_SkuValid">
+                        
+            <MetaData/>
+
+          </AttributeLink>
+          <AttributeLink AttributeID="AMKP_bothvalid">
+                        
+            <MetaData/>
+
+          </AttributeLink>
+
+        <Values>
+          <Value AttributeID="AMKP_SkuValid">123456</Value>
+        </Values>
+      </Product>
+    </Product>
+  </Products>
+</STEP-ProductInformation>
