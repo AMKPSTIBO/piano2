@@ -12,14 +12,14 @@
 </STEP-ProductInformation>
 
 Export from AMKP_Folder
-Effective date: 2023-01-06 08:26:54
+Effective date: 2023-01-06 08:29:55
 Classifications All
 Products "AMKP_Folder"
 Assets All
 
 Exported by database exporter.
 -->
-<STEP-ProductInformation ExportTime="2023-01-06 08:26:55" ExportContext="Context3" ContextID="Context3" WorkspaceID="Main" UseContextLocale="false">
+<STEP-ProductInformation ExportTime="2023-01-06 08:29:55" ExportContext="Context3" ContextID="Context3" WorkspaceID="Main" UseContextLocale="false">
 
   <Entities>
     <Entity ID="Entity1" UserTypeID="AMKP_E1" ParentID="AMKP_Entity" Selected="false" Referenced="true">
